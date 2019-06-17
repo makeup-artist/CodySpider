@@ -15,7 +15,7 @@ logging.basicConfig(format='%(asctime)s - [line:%(lineno)d] - %(levelname)s: %(m
                     level=logging.INFO)
 
 db_user="visitor"
-db_pwd="Visitor789"
+db_pwd=""
 db_host="rm-wz9e4pe6t92vh1t2gyo.mysql.rds.aliyuncs.com"
 
 
@@ -35,8 +35,8 @@ dior_base="https://www.dior.cn"
 cody_base = "https://cody.apawn.top"
 cody_login = "/api/user/login"
 inputDto = {
-    "username": "123456789",
-    "password": "123456789"
+    "username": "",
+    "password": ""
 }
 headers = {
     "Content-Type": "application/json"
